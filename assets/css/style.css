@@ -24,15 +24,16 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+/* removed the list-style-type */
 
-.header div ul li {
+.header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -81,13 +82,16 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* removed benifit h3 callouts, not needed */
 
+/* Condensed the benefit img into one tag*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* condensed photo boxes becuase all information is relevant to the other */
 .engine-properties {
     margin-bottom: 20px;
     padding: 50px;
@@ -98,9 +102,13 @@ p {
     
 }
 
+/* condensed box heights because all are relevant and could be combined */
 .engine-properties img {
     max-height: 200px;
 }
+
+/* deleted the margins becuase it was not needed for functionality */
+
 
 .footer {
     padding: 30px;
